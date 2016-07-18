@@ -1,4 +1,5 @@
 <div class="container">
+<<<<<<< HEAD
   <div [hidden]="submitted">
     <h1>Hero Form</h1>
     <form *ngIf="active" (ngSubmit)="onSubmit()" #heroForm="ngForm">
@@ -44,3 +45,18 @@
     <button class="btn btn-default" (click)="submitted=false">Edit</button>
   </div>
 </div>
+=======
+    <h1>Hero Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="alterEgo">Alter Ego</label>
+        <input type="text" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+>>>>>>> 996d50b6a24699de81e189989e6baf1871678818
