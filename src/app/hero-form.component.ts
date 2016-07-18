@@ -23,4 +23,3 @@ export class HeroFormComponent {
     setTimeout(() => this.active = true, 0);
   }
 }
-
